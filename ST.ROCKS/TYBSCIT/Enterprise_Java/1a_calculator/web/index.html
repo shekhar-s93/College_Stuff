@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator App</title>
+</head>
+<body>
+    <h2>Calculator App by SHEKHAR SUMAN</h2>
+    <form action="CalculatorServlet" method="get">
+        <label>
+            Enter First Number:
+            <input type="text" name="txtN1" required>
+        </label>
+        <br><br>
+
+        <label>
+            Enter Second Number:
+            <input type="text" name="txtN2" required>
+        </label>
+        <br><br>
+
+        <p>Select an Operation:</p>
+        <label><input type="radio" name="opr" value="+" required> Addition</label><br>
+        <label><input type="radio" name="opr" value="-"> Subtraction</label><br>
+        <label><input type="radio" name="opr" value="*"> Multiplication</label><br>
+        <label><input type="radio" name="opr" value="/"> Division</label><br><br>
+
+        <input type="reset" value="Clear">
+        <input type="submit" value="Calculate">
+    </form>
+</body>
+</html>
